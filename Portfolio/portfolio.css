@@ -1,0 +1,66 @@
+body {
+    font-size: 1em;
+    font-weight: 700;
+    background: white;
+    overflow: auto;
+}
+
+.grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-column-gap: 1%;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+.two {
+    background: snow;
+    line-height: 200%;
+}
+
+ul {
+    background: rgb(0,191,255);
+    direction: rtl;
+    text-align: right;
+    padding: 5%;
+    padding-right: 0;
+    border-radius: 6%;
+}
+
+ul a {
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.g1 {
+    margin-top: 280%;
+    background: rgba(0,191,255,40%);
+}
+
+ul:hover {
+    background: rgba(0,191,255,40%);
+}
+
+
+.g1 a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: rgb(0,191,255);
+}
+
+.LI-profile-badge {
+    margin-top: 10%;
+}

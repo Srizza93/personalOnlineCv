@@ -1,0 +1,118 @@
+/* Global Styles
+--------------------------------------------*/
+
+html, body {
+    font-size: 1em;
+    font-weight: 700;
+    background: white;
+    overflow: auto;
+}
+
+.grid-container {
+    height: auto;
+    width: auto;
+    display: inline-grid;
+    grid-column-gap: 1%;
+    grid-template-columns: auto 33% 33% 33%;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+}
+
+.lan {
+    border: 1px solid black;
+    width: 98%;
+    height: 4%;
+    margin-top: 60%;
+    border-radius: 6px;
+}
+
+/* First Box
+-------------------------------------------------*/
+
+ ul {
+    background: rgb(0,191,255);
+    direction: rtl;
+    text-align: right;
+    padding: 5%;
+    padding-right: 0;
+    border-radius: 6%;
+}
+
+.one ul a {
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.one ul:hover {
+    background: rgba(0,191,255,40%);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.g1 {
+    background: rgba(0,191,255,40%);
+}
+
+.g2 {
+    margin-top: 280%;
+}
+
+/* Second Box
+-------------------------------------------------*/
+
+.two {
+    background: snow;
+    color: rgb(0,191,255);
+}
+
+.italian {
+    background: rgb(0,191,255);
+}
+
+.it {
+    background: green;
+    width: 100%;
+    height: 100%;
+}
+
+/* Third Box
+-------------------------------------------------*/
+
+.three {
+    background: rgb(0,191,255);
+    color: snow;
+}
+
+.french {
+    background: snow;
+}
+
+.fr {
+    background: green;
+    width: 90%;
+    height: 100%;
+}
+
+/* Fourth Box
+-------------------------------------------------*/
+
+.four {
+    background: snow;
+    color: rgb(0,191,255);
+}
+
+.english {
+    background: rgb(0,191,255);
+}
+
+.en {
+    background: green;
+    width: 88%;
+    height: 100%;
+}

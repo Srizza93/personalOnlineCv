@@ -1,0 +1,77 @@
+/* Global Styles
+--------------------------------------------*/
+
+html, body {
+    font-size: 1em;
+    font-weight: 700;
+    background: white;
+    overflow: auto;
+}
+
+.grid-container {
+    height: auto;
+    width: auto;
+    display: inline-grid;
+    grid-column-gap: 1%;
+    grid-template-columns: auto 150%;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+}
+
+/* First Box
+-------------------------------------------------*/
+
+ ul {
+    background: rgb(0,191,255);
+    direction: rtl;
+    text-align: right;
+    padding: 5%;
+    padding-right: 0;
+    border-radius: 6%;
+}
+
+.one ul a {
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.one ul:hover {
+    background: rgba(0,191,255,40%);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.g1 {
+    background: rgba(0,191,255,40%);
+}
+
+.g2 {
+    margin-top: 280%;
+}
+
+/* Second Box
+-------------------------------------------------*/
+
+.two {
+    background: rgb(0,191,255);
+    color: snow;
+}
+
+.two a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 1.5%;
+    border-radius: 4px;
+    background: snow;
+    color: rgb(0,191,255);;
+}
+
+.d1 {
+    margin-top: 30%;
+}

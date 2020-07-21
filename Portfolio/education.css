@@ -1,0 +1,146 @@
+html, body {
+    font-size: 1em;
+    font-weight: 700;
+    background: white;
+    overflow: auto;
+}
+
+.grid-container {
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-column-gap: 1%;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px;
+    overflow: auto;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+/* First Box
+-------------------------------------------------*/
+
+ ul {
+    background: rgb(0,191,255);
+    direction: rtl;
+    text-align: right;
+    padding: 5%;
+    padding-right: 0;
+    border-radius: 6%;
+    width: auto;
+}
+
+.one ul a {
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.one ul:hover {
+    background: rgba(0,191,255,40%);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.g1 {
+    background: rgba(0,191,255,40%);
+}
+
+.g2 {
+    margin-top: 280%;
+}
+
+/* Second Box
+-------------------------------------------------*/
+
+.two {
+    background: snow;
+    line-height: 280%;
+}
+
+.two a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 4px;
+    background: rgb(0,191,255);
+    color: snow;
+}
+
+
+/* Third Box
+-------------------------------------------------*/
+
+.three {
+    background: rgb(0,191,255);
+    line-height: 280%;
+}
+
+.three a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 4px;
+    background: snow;
+    color: rgb(0,191,255);
+}
+
+/* Fourth Box
+-------------------------------------------------*/
+
+.four {
+    background: snow;
+    line-height: 280%;
+}
+
+.four a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 4px;
+    background: rgb(0,191,255);
+    color: snow;
+}
+
+/* Fifth Box
+-------------------------------------------------*/
+
+.five {
+    background: rgb(0,191,255);
+    line-height: 280%;
+}
+
+.five a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 4px;
+    background: snow;
+    color: rgb(0,191,255);
+}
+
+/* Sixth Box
+-------------------------------------------------*/
+
+.six {
+    background: snow;
+    line-height: 280%;
+}
+
+.six a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 4px;
+    background: rgb(0,191,255);
+    color: snow;
+}
